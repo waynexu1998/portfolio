@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "NeogroteskPro";
+    font-weight: 400;
+    src:  url('../fonts/NeogroteskPro-Regular.woff') format('woff'),
+}
+  
+@font-face {
+    font-family: "NeogroteskPro";
+    font-weight: 700;
+    src: url('../fonts/NeogroteskPro-Bold.woff') format('woff'),
+}
+
+body {
+    font-family: "NeogroteskPro";
+    font-weight: 400;
+    background-color: #f6f6f6;
+}
+
+h2 {
+    font-family: "NeogroteskPro";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 700;
+}
+
+.heading {
+    font-family: "NeogroteskPro";
+}
