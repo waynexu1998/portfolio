@@ -1,17 +1,20 @@
 @font-face {
     font-family: "NeogroteskPro";
     font-weight: 400;
-    src:  url('../fonts/NeogroteskPro-Regular.woff') format('woff'),
+    src:  url('../fonts/NeogroteskPro-Regular.woff') format('woff');
 }
   
 @font-face {
     font-family: "NeogroteskPro";
     font-weight: 700;
-    src: url('../fonts/NeogroteskPro-Bold.woff') format('woff'),
+    src: url('../fonts/NeogroteskPro-Bold.woff') format('woff');
 }
 
 body {
+    padding: 100px !important;
     font-family: "NeogroteskPro";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     font-weight: 400;
     background-color: #f6f6f6;
 }
@@ -21,8 +24,37 @@ h2 {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-weight: 700;
+    text-transform: uppercase;
+    opacity: 0.6;
+    font-size: 0.9vw !important;
+    line-height: 1.1vw !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    margin-bottom: 0.3vw !important;
+    font-weight: 400 !important;
+}
+
+p {
+    font-size: 0.9vw;
+    line-height: 1.1vw;
+    padding: 0;
+    text-transform: uppercase;
+    opacity: 0.6;
 }
 
 .heading {
-    font-family: "NeogroteskPro";
+    height: 17vh;
+}
+
+.empty {
+    height: 17vh;
+}
+
+.giant {
+    font-size: 8.5vw;
+    line-height: 8.5vw;
+}
+
+.bottom_row {
+    height: 17vh;
 }

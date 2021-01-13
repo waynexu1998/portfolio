@@ -6,6 +6,7 @@
     <title>Portfolio for human</title>
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/raster2.css">
+    <link rel="stylesheet" href="./css/locomotive-scroll.css">
 </head>
 <body>
     <r-grid columns=8>
@@ -16,6 +17,43 @@
                 human
             </h2>
         </r-cell>
+        <r-cell span=6-6>
+            <h2 class="heading">
+                + About me
+            </h2>
+        </r-cell>
+        <r-cell span=7-7>
+            <h2 class="heading">
+                + contact
+            </h2>
+        </r-cell>
+        <r-cell span=8-8>
+            <h2 class="heading">
+                + smth fun
+            </h2>
+        </r-cell>
+        <r-cell span=8 class="empty"></r-cell>
+        <r-cell span=3-8>
+            <h1 class="giant">
+                Attitudinal Design
+            </h1>
+        </r-cell>
+        <r-cell span=8 class="empty"></r-cell>
+        <r-cell span=1 class="bottom_row">
+            <h2>+ linkedin</h2>
+            <h2>+ dribbble</h2>
+            <h2>+ instagram</h2>
+        </r-cell>
+        <r-cell span=3-4>
+            <p>Hi, I am Jiangyong . Human-centered front-end developer. I create 
+                interfaces with great aesthetics and top-tier user experience.</p>
+        </r-cell>
     </r-grid>
+    <script src="./js/locomotive-scroll.min.js"></script>
+    <script>
+        (function () {
+            var scroll = new LocomotiveScroll();
+        })();
+    </script>
 </body>
 </html>
