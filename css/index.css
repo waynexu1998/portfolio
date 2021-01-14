@@ -24,7 +24,6 @@ h2 {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-weight: 700;
-    text-transform: uppercase;
     opacity: 0.6;
     font-size: 0.9vw !important;
     line-height: 1.1vw !important;
@@ -38,12 +37,12 @@ p {
     font-size: 0.9vw;
     line-height: 1.1vw;
     padding: 0;
-    text-transform: uppercase;
     opacity: 0.6;
 }
 
 .heading {
     height: 15vh;
+    text-transform: uppercase;
 }
 
 .empty {
@@ -51,8 +50,9 @@ p {
 }
 
 .giant {
-    font-size: 8.5vw;
-    line-height: 8.5vw;
+    font-size: 7.5vw;
+    line-height: 7.5vw;
+    letter-spacing: normal;
 }
 
 .bottom_row {
