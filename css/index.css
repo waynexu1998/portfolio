@@ -11,12 +11,15 @@
 }
 
 body {
-    padding: 100px !important;
     font-family: "NeogroteskPro";
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-weight: 400;
     background-color: #f6f6f6;
+}
+
+.wrapper {
+    padding: 100px !important;
 }
 
 h2 {
