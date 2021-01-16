@@ -16,6 +16,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     font-weight: 400;
     background-color: #f6f6f6;
+    padding: 0px !important;
 }
 
 .wrapper {
@@ -28,19 +29,21 @@ h2 {
     -moz-osx-font-smoothing: grayscale;
     font-weight: 700;
     opacity: 0.6;
-    font-size: 0.9vw !important;
-    line-height: 1.1vw !important;
+    font-size: 0.8vw !important;
+    line-height: 1.0vw !important;
     padding: 0 !important;
     margin: 0 !important;
-    margin-bottom: 0.3vw !important;
     font-weight: 400 !important;
+    text-transform: uppercase;
+    letter-spacing: normal !important;
 }
 
 p {
     font-size: 0.9vw;
-    line-height: 1.1vw;
+    line-height: 1.0vw;
     padding: 0;
     opacity: 0.6;
+    font-weight: 400;
 }
 
 .heading {
@@ -58,6 +61,33 @@ p {
     letter-spacing: normal;
 }
 
+.link {
+    margin-bottom: 0.3vw !important;
+}
+
 .bottom_row {
     height: 15vh;
+}
+
+.divider {
+    height: 1px;
+    width: 100%;
+    background-color: black;
+}
+
+.project_title {
+    padding-top: 0.5vw !important;
+    opacity: 1;
+    font-weight: 700 !important;
+    font-size: 2.7vw !important;
+    line-height: 2.7vw !important;
+    padding-bottom: 0.5vw !important;
+}
+
+.plus {
+    font-weight: 400 !important;
+}
+
+.project_year {
+    padding-top: 0.5vw !important;
 }
