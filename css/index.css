@@ -91,3 +91,13 @@ p {
 .project_year {
     padding-top: 0.5vw !important;
 }
+
+.deco_title {
+    font-weight: 700 !important;
+    font-size: 2.7vw !important;
+    line-height: 2.7vw !important;
+}
+
+.footer_email {
+    text-decoration: underline;
+}
