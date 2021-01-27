@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "NeogroteskPro";
+    font-weight: 400;
+    src:  url('../fonts/NeogroteskPro-Regular.woff') format('woff');
+}
+  
+@font-face {
+    font-family: "NeogroteskPro";
+    font-weight: 700;
+    src: url('../fonts/NeogroteskPro-Bold.woff') format('woff');
+}
+
+body {
+    font-family: "NeogroteskPro";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 400;
+    background-color: #f6f6f6;
+    padding: 0px !important;
+}
+
+.wrapper {
+    padding: 100px !important;
+}
+
+h2 {
+    font-family: "NeogroteskPro";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 700;
+    opacity: 0.6;
+    font-size: 0.8vw !important;
+    line-height: 1.0vw !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    font-weight: 400 !important;
+    text-transform: uppercase;
+    letter-spacing: normal !important;
+}
+
+p {
+    font-size: 0.9vw;
+    line-height: 1.0vw;
+    padding: 0;
+    opacity: 0.6;
+    font-weight: 400;
+}
+
+.heading {
+    height: 15vh;
+    text-transform: uppercase;
+}
+
+.empty {
+    height: 15vh;
+}
+
+.divider {
+    height: 1px;
+    width: 100%;
+    background-color: black;
+}
+
+.link {
+    margin-bottom: 0.3vw !important;
+}
+
+.plus {
+    font-weight: 400 !important;
+}

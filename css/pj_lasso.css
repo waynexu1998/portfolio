@@ -1,0 +1,11 @@
+.project_title {
+    opacity: 1;
+    font-weight: 700 !important;
+    font-size: 2.7vw !important;
+    line-height: 2.7vw !important;
+    height: 15vh;
+}
+
+.desc {
+    text-transform: none;
+}
