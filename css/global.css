@@ -10,6 +10,12 @@
     src: url('../fonts/NeogroteskPro-Bold.woff') format('woff');
 }
 
+@font-face {
+    font-family: "NeogroteskPro";
+    font-weight: 100;
+    src: url('../fonts/NeogroteskPro-UltLight.woff') format('woff');
+}
+
 body {
     font-family: "NeogroteskPro";
     -webkit-font-smoothing: antialiased;
@@ -56,9 +62,8 @@ p {
 }
 
 .divider {
-    height: 1px;
+    border-top: black solid 1px;
     width: 100%;
-    background-color: black;
 }
 
 .link {
@@ -66,5 +71,5 @@ p {
 }
 
 .plus {
-    font-weight: 400 !important;
+    font-weight: 100 !important;
 }
