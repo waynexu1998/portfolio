@@ -5,5 +5,5 @@ const scroll = new LocomotiveScroll({
 })
 
 window.onload = function() {
-    document.querySelector(".load").style.display = "none"
+    scroll.update()
 }
