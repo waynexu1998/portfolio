@@ -3,3 +3,7 @@ const scroll = new LocomotiveScroll({
     el: document.querySelector('[data-scroll-container]'),
     lerp: 0.15,
 })
+
+window.onload = function() {
+    document.querySelector(".load").style.display = "none"
+}
