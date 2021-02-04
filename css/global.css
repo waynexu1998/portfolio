@@ -29,6 +29,15 @@ body {
     padding: 100px !important;
 }
 
+a {
+    text-decoration: none !important;
+}
+
+a:hover {
+    color: black !important;
+    cursor: pointer;
+}
+
 h2 {
     font-family: "NeogroteskPro";
     -webkit-font-smoothing: antialiased;
@@ -72,4 +81,9 @@ p {
 
 .plus {
     font-weight: 100 !important;
+}
+
+.redirect {
+    font-weight: 700 !important;
+    opacity: 1 !important;
 }
