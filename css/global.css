@@ -44,7 +44,7 @@ h2 {
     -moz-osx-font-smoothing: grayscale;
     font-weight: 700;
     opacity: 0.6;
-    font-size: 0.8vw !important;
+    font-size: 0.9vw !important;
     line-height: 1.0vw !important;
     padding: 0 !important;
     margin: 0 !important;
@@ -87,3 +87,37 @@ p {
     font-weight: 700 !important;
     opacity: 1 !important;
 }
+
+@media only screen and (max-width: 1440px) {
+    .wrapper {
+        padding: 4.5vw 4.5vw !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    h2 {
+        font-size: 3.5vw !important;
+        line-height: 3.7vw !important;
+    }
+
+    p {
+        font-size: 5vw;
+        line-height: 5.2vw;
+    }
+
+    .heading {
+        height: 10vh;
+    }
+
+    .hidden-s {
+        display: none;
+    }
+
+    .wrapper {
+        padding: 4.5vw 4.5vw !important;
+    }
+
+    .empty {
+        height: 10vh;
+    }
+  }

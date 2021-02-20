@@ -34,3 +34,21 @@
 .footer_email {
     text-decoration: underline;
 }
+
+@media only screen and (max-width: 600px) {
+    .giant {
+        font-size: 13vw !important;
+        line-height: 13vw !important;
+    }
+
+    .project_title {
+        padding-top: 2vw !important;
+        font-size: 5vw !important;
+        line-height: 5.2vw !important;
+    }
+
+    .deco_title {
+        font-size: 5vw !important;
+        line-height: 5.2vw !important;
+    }
+}
