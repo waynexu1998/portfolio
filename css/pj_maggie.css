@@ -10,3 +10,27 @@
     text-transform: none;
     height: 15vh;
 }
+
+.redirect {
+    padding-top: 1vw !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .project_title {
+        padding-top: 2vw !important;
+        font-size: 5vw !important;
+        line-height: 5.2vw !important;
+        height: 10vh;
+    }
+
+    .desc {
+        text-transform: none;
+        height: 35vh;
+        font-size: 4vw !important;
+        line-height: 4.3vw !important;
+    }
+
+    .vh-s {
+        height: 15vh !important;
+    }
+}

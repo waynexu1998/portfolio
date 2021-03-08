@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maggie's Portfolio</title>
-    <link rel="stylesheet" href="./css/pj_lasso.css">
+    <link rel="stylesheet" href="./css/pj_maggie.css">
     <link rel="stylesheet" href="./css/global.css">
     <link rel="stylesheet" href="./css/raster2.css">
     <link rel="stylesheet" href="./css/locomotive-scroll.css">
@@ -12,7 +12,7 @@
 <body>
     <div data-scroll-container class="wrapper">
         <r-grid columns=8>
-            <r-cell span=1>
+            <r-cell span=1 span-s=1-4>
                 <a href="index.html">
                     <h2 class="heading">
                         Portfolio<br>
@@ -21,53 +21,52 @@
                     </h2>
                 </a>
             </r-cell>
-            <r-cell span=6-6>
+            <r-cell span=6-6 span-s=1 class="hidden-s">
                 <a>
                     <h2 class="heading2">
                         + About me
                     </h2>
                 </a> 
             </r-cell>
-            <r-cell span=7-7>
+            <r-cell span=1 class="hidden-s">
                 <a>
                     <h2 class="heading2">
                         + Contact
                     </h2>
                 </a>
             </r-cell>
-            <r-cell span=8-8>
+            <r-cell span=1 class="hidden-s">
                 <a>
                     <h2 class="heading2">
                         + Smth fun
                     </h2>
                 </a>
             </r-cell>
-            <r-cell span=5>
-                <h2 class="project_title"><span class="plus"> + </span>Maggie Peng's Portfolio</h2>
+            <r-cell span=5 span-s=1-8>
+                <h2 id="pj_t" class="project_title"><span class="plus"> + </span>Maggie Peng's Portfolio</h2>
             </r-cell>
             <r-cell span=1-1 class="divider"></r-cell>
-            <r-cell span=2-2>
+            <r-cell span=2-2 span-s=2-8 class="empty vh-s">
                 <div>
                     <h2>Adobe XD</h2>
                     <h2>Next.js</h2>
                     <h2>gsap motion</h2>
                     <h2>framer API</h2>
-
                 </div>
             </r-cell>
-            <r-cell span=6-8>
+            <r-cell span=6-8 span-s=1-8>
                 <h2 class="desc">Maggie is a marketing and design specialist who graduated from University of Rochester in 2020. This project was a prototype built for her with an intended purpose of being her portfolio website. In the process of designing the website we collaborated to design a magazine-like layout and smooth page transitions. Adding a constant grain was a fine tuned touch to bring out more texture for the website. Implementing the page transitions using framer API also made it a much more pleasant expereience to browse through. Using Next.js as the chosen framework, this project became a stunning prototype.</h2>
             </r-cell>
-            <r-cell span=1-2 class="divider"></r-cell>
-            <r-cell span=3-4 class="empty">
+            <r-cell span=1-2 span-s=1-8 class="divider"></r-cell>
+            <r-cell span=3-4 span-s=1-8 class="empty vh-s">
                 <div>
                     <h2>Year: 2020</h2>
                     <h2>Client: Maggie Peng</h2>
                     <h2>Type: UI/UX design and build</h2>
                 </div>
             </r-cell>
-            <r-cell span=6-7>
-                <a href="https://maggie-website.vercel.app/">
+            <r-cell span=6-7 span-s=1-8>
+                <a href="https://maggie-website.vercel.app/" class="ex_link">
                     <h2 class="redirect">
                         → Link to Prototype
                     </h2>
@@ -76,26 +75,26 @@
             <r-cell span=1-8>
                 <img src="./images/maggie_hero.webp" class="hero" alt="Maggie Hero">
             </r-cell>
-            <r-cell class="empty" span=1-8></r-cell>
+            <r-cell class="empty hidden-s" span=1-8></r-cell>
             <r-cell span=1-8>
                 <img src="./images/maggie_profile.webp" class="hero" alt="Maggie Hero">
             </r-cell>
             <r-cell span=8 class="empty"></r-cell>
 
             <r-cell span=8 class="divider"></r-cell>
-            <r-cell span=1>
+            <r-cell span=1 class="hidden-s">
                 <h2 class="footer">
                     Portfolio<br>
                     for and by<br>
                     human +
                 </h2>
             </r-cell>
-            <r-cell span=4-5>
+            <r-cell span=4-5 span-s=1-4>
                 <h2 class="footer">
-                    got an idea? <span class="footer_email">hahah@email.com</span>
+                    <span class="footer_email">hahah@email.com</span>
                 </h2>
             </r-cell>
-            <r-cell span=8-8>
+            <r-cell span=8-8 span-s=6-8>
                 <h2 class="">
                     © 2020—2021
                 </h2>
